@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+html{
+  background-color: black;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App{
+ 
+  background-color: black;
+}
+.nav{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  padding:10px;
+  background-color: rgb(124, 212, 223);
+  color:rgb(41, 13, 70);
+  font-weight: bold;
+  font-family:cursive;
+}
+.nav button{
+  color:rgb(41, 13, 70);
+  font-weight: bold;
+  font-family: cursive;
+}
+.nav h{
+  font-size: larger;
+  font-style: italic;
+  color:rgb(184, 27, 126);
+}
+.nav button:hover,.nav a:hover{
+  color:rgb(184, 27, 126);
+}
+.nav h :hover{
+  color:rgb(41, 13, 70);
+}
+.box{
+  background-color: rgb(195, 138, 67);
+  width:300px;
+  height:200px;
+ text-align: center;
+ align-items: center;
+
+}
+.outer{
+ 
+   display: grid;
+    grid-template-columns: repeat(
+    auto-fit, minmax(300px, 1fr));
+    row-gap: 10px;
+    margin-top:20px;
+}
+.cname{
+  color:white;
+  font-size: large;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 30px;
+}
+
+.serv,.test{
+  color:white;
+ 
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit, minmax(400px,1fr));
+}
+.th,.sh,.ph{
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  color:white;
+  padding:50px;
+}
+.sbox,.tbox {
+  border: 2px solid red;
+  width:400px;
+  align-items: center;
+  justify-self: center;
+}
+.sbox:hover,.tbox:hover{
+  border:2px solid white;
+}
+.sbox h,.tbox h{
+  font-size: 30px;
+  padding:30px;
+  
+  
+}
+.sbox p,.tbox p{
+  text-align: justify;
+  padding:30px;
+}
+.pwork{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(400px,1fr));
+  justify-content: center;
+  align-content: center;
+  row-gap: 10px;
+
+}
+.pwork img{
+  width:400px;
+  height:400px;
+  justify-self: center;
+  align-self: center;
+}
+.comp{
+  font-size: 40px;
+  color:crimson;
+  font-style: italic;
+}
